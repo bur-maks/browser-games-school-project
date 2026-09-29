@@ -1,5 +1,7 @@
 # Browser Games — School Project
 
+[🌐 Open live website](https://bur-maks.github.io/browser-games-school-project/)
+
 A school web project originally started in the 10th grade and later expanded in the 11th grade.
 
 The project is a small multi-page website about browser games, their history, the Flash era and browser game development.
