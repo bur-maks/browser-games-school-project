@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="icon" type="image/png" href="111.png">
+<title>Змейка</title>
+</head>
+<body>
+<script>
+window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop; 
+  if(scrolled !== 0){
+    
+    document.querySelector('.navbar').style.opacity = '0.5';
+  }else{
+    
+    document.querySelector('.navbar').style.opacity = '1';
+  };
+};
+</script>
+<div class="navbar">
+<ul class="border">
+<li>Меню сайта:</li>
+<li><a href="1.html" class="s10">страница_1</a></li>
+<li><a href="2.html" class="s11">страница_2</a></li>
+<li><a href="index.html" class="s12">главная</a></li>
+</ul>
+</div>
+<main class="game-wrapper">
+    <canvas id="Змейка" width="608" height="608"></canvas>
+</main>
+
+<script src="snake.js"></script>
+</body>
+</html>
